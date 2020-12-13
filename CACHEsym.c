@@ -165,6 +165,6 @@ int main(int argc,char* argv[]){
 	
 	texto[numero_aciertos]='\0'; //determina donde termina el string y donde empieza la basura
 	printf("\n%s\n",texto);
-	
+	free(elementos);
 	return 0;
 }
